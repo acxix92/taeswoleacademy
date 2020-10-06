@@ -1,0 +1,18 @@
+{
+  "title": "INVERTED ATOM",
+  "url": "https://inverted-atom.netlify.app/",
+  "description": "This is an 11ty Starter Template with Tachyons in place for styling.",
+  "googleID": "xxxxxxxxxxxxxxx",
+  "repo": "http://github.com/acxix92/inverted-atom/",
+  "feed": {
+    "subtitle": "This is an 11ty Starter Template with Tachyons in place for styling.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://inverted-atom.netlify.app/"
+  },
+  "author": {
+    "name": "Alexander Cortez",
+    "email": "xxxx",
+    "avatar": "/images/avatar.jpg"
+  }
+}
