@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cfa313d8-660d-4a5f-9052-26504fd54d48/deploy-status)](https://app.netlify.com/sites/inverted-atom-library/deploys)
+
 
 # 11ty + TACHYONS
 
