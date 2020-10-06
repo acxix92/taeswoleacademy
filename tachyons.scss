@@ -4,11 +4,47 @@
 
 // Write your custom styles
 
+.aboutme {
+  background: linear-gradient(rgba(0, 0, 0, 0.269), rgba(0, 0, 0, 0.5)) repeat-y;
+  background-size: cover;
+}
+
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: black !important;
+  background: url('https://media.giphy.com/media/UeCV89wNutTs4/giphy-downsized.gif') 50% 50% no-repeat rgb(249, 249, 249);
+  background-size: 500px 250px;
+}
+
 // Sticky footer
 html,
 body {
   height: 100%;
   scroll-behavior: smooth;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body {

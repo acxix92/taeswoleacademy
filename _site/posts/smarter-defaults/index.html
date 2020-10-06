@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <title>
-    INVERTED ATOM
+    TAE'S SWOLE ACADEMY
   </title>
   <meta name="author" content='Alexander Cortez'>
-  <meta name="description" content="This is an 11ty Starter Template with Tachyons in place for styling.">
+  <meta name="description" content="TAE'S SWOLE ACADEMY">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/tachyons.css">
   <link rel="stylesheet" href="/assets/css/sticky-footer.css">
@@ -15,17 +15,22 @@
 
 <body>
   <!-- .content class on the div is for the Sticky Footer  -->
+
+
+  <div class="loader">
+
+  </div>
   <div class="content">
     <header class="bg-black-90 fixed w-100 ph2 pv3 ph4-m ph5-l">
   <nav class="left--2-l left-0 relative" role="navigation">
-    <a class="link dim white dib f6 ttu tracked" href="/" title="Home">INVERTED ATOM Design System</a>
+    <a class="link dim white dib f6 ttu tracked" href="/" title="Home">TAE'S SWOLE ACADEMY</a>
   </nav>
 </header>
 <section class="h2"></section>
 
 <!-- <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
   <nav class="f6 fw6 ttu tracked" role="navigation">
-    <a class="link dim white dib mr3" href="/" title="Home">INVERTED ATOM</a>
+    <a class="link dim white dib mr3" href="/" title="Home">TAE'S SWOLE ACADEMY</a>
   </nav>
 </header> -->
 
@@ -44,10 +49,10 @@
 </section>
 
   </div>
-  <footer class="footer bg-black-70 red white-80 pv2 pv3-l ph4 mt5">
+  <footer class="footer bg-black-70 red white-80 pv2 pv3-l ph4">
   <section class="mw6 mw7-ns center pa3 ph5-ns">
     <p class="f6">
-      © 2020. INVERTED ATOM &middot; <a class="link black hover-blue" href="http://github.com/acxix92/inverted-atom/">GitHub Repo</a>
+      © 2020. TAE'S SWOLE ACADEMY &middot; <a class="link black hover-blue" href="http://github.com/acxix92/taeswoleacademy/">GitHub Repo</a>
     </p>
   </section>
 </footer>
@@ -65,6 +70,21 @@
   </script>
 
  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    $(window).load(function () {
+      show();
+    });
+
+
+
+    function show() {
+      $('.loader').delay(5000).fadeOut("slow");
+      $('body').fadeIn();
+    };
+
+    setTimeout(show, 5000);
+  </script>
 
 </body>
 

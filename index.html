@@ -1,10 +1,10 @@
 ---
-title: 1NVERTED ATOM
+title: TAE'S SWOLE ACADEMY
 layout: layouts/default.html
 ---
 
 
-<section class="mw6 mw7-ns center pa3 ph5-ns">
+<!-- <section class="mw6 mw7-ns center pa3 ph5-ns">
   {%- for post in collections.post limit:20 -%}
   <a class="link dt w-100 bb b--black-10 pb2 mt2 dim " href="{{ post.url }}">
     <div class="dtc v-top pl4">
@@ -15,4 +15,33 @@ layout: layouts/default.html
     </div>
   </a>
   {%- endfor -%}
+</section> -->
+
+
+
+<section class="vh-100 w-100 aboutme">
+  <video playsinline autoplay muted loop poster="{{ site.author.gif }}" id="bgvid">
+    <source src="{{ site.author.mp4 }}" type="video/mp4">
+    <source src="{{ site.author.webm }}" type="video/webm">
+  </video>
+  <div class="vh-100 dt w-100 tc bg-black-05 white ">
+    <div class="dtc v-mid">
+      <header class="white-70">
+        <h2 class="f6 fw1 ttu tracked mb2 lh-title">Alexandria, VA</h2>
+        <h3 class="f6 fw1 lh-title">STRENGTH | NUTRITION | WELLNESS</h3>
+      </header>
+      <!-- <h1 class="f1 f-headline-l fw1 i white-60"></h1> -->
+      <img src="{{ site.author.logo }}" class="w-100 f5 measure">
+      <blockquote class="ph4 mh0 measure f4 lh-copy center">
+        <!-- <p class="fw1 white-70">
+          It's the space you put between the notes that make the music.
+        </p> -->
+        <cite class="f6 ttu tracked fs-normal">D'lontae Sewell</cite>
+      </blockquote>
+      <div class="tc-l mt3 mt4-m mt5-l ph3">
+        <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="{{ site.author.procoach }}" target="_blank">Personal Coaching</a>
+        <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="mailto:info@taeswoleacademy.com" target="_blank">Email</a>
+      </div>
+    </div>
+  </div>
 </section>

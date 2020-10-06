@@ -4,6 +4,11 @@
 
 <body>
   <!-- .content class on the div is for the Sticky Footer  -->
+
+
+  <div class="loader">
+
+  </div>
   <div class="content">
     {% include _header.html %}
 
@@ -11,6 +16,21 @@
   </div>
   {% include _footer.html %}
   <!-- {% include _google_analytics.html %} -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    $(window).load(function () {
+      show();
+    });
+
+
+
+    function show() {
+      $('.loader').delay(5000).fadeOut("slow");
+      $('body').fadeIn();
+    };
+
+    setTimeout(show, 5000);
+  </script>
 
 </body>
 

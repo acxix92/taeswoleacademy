@@ -1,18 +1,24 @@
 {
-  "title": "INVERTED ATOM",
-  "url": "https://inverted-atom.netlify.app/",
-  "description": "This is an 11ty Starter Template with Tachyons in place for styling.",
+  "title": "TAE'S SWOLE ACADEMY",
+  "url": "https://taeswoleacademy.com",
+  "description": "TAE'S SWOLE ACADEMY",
   "googleID": "xxxxxxxxxxxxxxx",
-  "repo": "http://github.com/acxix92/inverted-atom/",
+  "repo": "http://github.com/acxix92/taeswoleacademy/",
   "feed": {
-    "subtitle": "This is an 11ty Starter Template with Tachyons in place for styling.",
+    "subtitle": "STRENGTH, WELLNESS, NUTRITION",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://inverted-atom.netlify.app/"
+    "id": "https://taeswoleacademy.com"
   },
   "author": {
     "name": "Alexander Cortez",
     "email": "xxxx",
-    "avatar": "/images/avatar.jpg"
+    "avatar": "/images/avatar.jpg",
+    "mp4": "/images/tsa.mp4",
+    "webm": "/images/tsa.webm",
+    "gif": "/images/tsa.gif",
+    "logo": "/images/logo.png",
+    "procoach": "https://procoach.app/dlontae-sewell",
+    "gifloader": "/images/loader.gif"
   }
 }
